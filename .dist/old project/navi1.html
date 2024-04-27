@@ -33,7 +33,6 @@
                 <li>
                     <button id="loginButton" class="loginn">LOGIN</button>
                 </li>
-                
             </div>
         </div>
     </div>
@@ -46,10 +45,10 @@
         event.preventDefault(); // Prevent default form submission behavior
         let password = document.getElementById("pass").value;
         console.log(password);
-        if (password === "ankit") {
+        if (password === "navaneeth") {
             console.log("Password correct!"); // Check password in console
             // Redirect to specific anchor tag
-            window.location.href = "http://127.0.0.1:5500/.dist/class%20project/class.html#yourAnchorTagID";
+            window.location.href = "http://127.0.0.1:5500/.dist/class%20project/class.html";
         } else {
             alert("Incorrect password. Please try again.");
         }
